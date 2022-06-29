@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
 
+
 class MyAccountManager(BaseUserManager):
 
     def create_user(self, email, username, phone, password=None):
@@ -35,12 +36,17 @@ class MyAccountManager(BaseUserManager):
 
 
 def get_profile_image_filepath(self):
-    return f'profile_images/{self.pk}/{"profile_image.png"}'
+    return f'profile_image/{self.pk}/{"profile_image.png"}'
 
 
 def get_default_profile_image():
-    return "media_cdn/codingwithmitch/logo_1080_1080.png"
+    return "![](../media_cdn/codingwithmitch/logo_1080_1080.png)"
 
+
+def user_directory_path(instance, filename):
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+
+    return 'user_{0}/{1}'.format(instance.id, filename)
 
 class Account(AbstractBaseUser):
     email = models.EmailField(verbose_name="email", max_length=100, unique=True)
@@ -52,8 +58,7 @@ class Account(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
-    profile_image = models.ImageField(max_length=255, upload_to=get_profile_image_filepath, null=True, blank=True,
-                                      default=get_default_profile_image)
+    profile_image = models.ImageField(upload_to=user_directory_path, blank=True)
     hide_email = models.BooleanField(default=True)
 
     object = MyAccountManager()

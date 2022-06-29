@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cd27510-68ac-4431-9b8d-2ee31be43984" name="Changes" comment="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout">
+    <list default="true" id="1cd27510-68ac-4431-9b8d-2ee31be43984" name="Changes" comment="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Polaris/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polaris/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polaris/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polaris/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656519814294</updated>
-      <workItem from="1656519821355" duration="20278000" />
+      <workItem from="1656519821355" duration="24168000" />
     </task>
     <task id="LOCAL-00001" summary="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout">
       <created>1656540775699</created>
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656540775699</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает">
+      <created>1656542190666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656542190666</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил" />
     <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout" />
+    <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает" />
   </component>
 </project>
