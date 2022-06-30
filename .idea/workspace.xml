@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cd27510-68ac-4431-9b8d-2ee31be43984" name="Changes" comment="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает">
+    <list default="true" id="1cd27510-68ac-4431-9b8d-2ee31be43984" name="Changes" comment="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает&#10;фотографии сохраняються в media/user_id">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83b48d7a-0a7d-4df0-9710-c7e38d6571ee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c3bef511-f958-4a37-ad1d-b986da743c9b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c63f97b2-f41b-4d9b-9cae-cfc0f1552caf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c63f97b2-f41b-4d9b-9cae-cfc0f1552caf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Polaris/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polaris/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polaris/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polaris/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_form.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Doska/Polaris/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Doska/Polaris/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Doska\Polaris\templates" />
@@ -83,8 +85,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="DJANGO_SETTINGS_MODULE" value="Polaris.settings" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Polaris.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Doska\Polaris\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -111,7 +113,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656519814294</updated>
-      <workItem from="1656519821355" duration="24168000" />
+      <workItem from="1656519821355" duration="24352000" />
+      <workItem from="1656590690597" duration="168000" />
+      <workItem from="1656591108219" duration="52000" />
+      <workItem from="1656595321361" duration="10771000" />
     </task>
     <task id="LOCAL-00001" summary="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout">
       <created>1656540775699</created>
@@ -127,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656542190666</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает&#10;фотографии сохраняються в media/user_id">
+      <created>1656546124210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656546124210</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает&#10;фотографии сохраняються в media/user_id">
+      <created>1656546166786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656546166786</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +167,7 @@
     <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил" />
     <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout" />
     <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает" />
+    <MESSAGE value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает&#10;фотографии сохраняються в media/user_id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polaris 1.0003 &quot;сделано нормальную модель с email, username, phone, password, date_joined -дата первого входа, last_login-дата последнего входа, is_admin, is_active, is_staff, is_superuser,profile_image,hide_email- cокрытие эмаила&quot;&#10;&#10;вход происходит через имаил.&#10;&#10;работает логин и logout&#10;&#10;сделана реестрация!!!!!!!!!!!!!!!!!!!!! Работает&#10;фотографии сохраняються в media/user_id" />
   </component>
 </project>

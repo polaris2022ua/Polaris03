@@ -17,7 +17,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
@@ -29,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-LOGIN_REDIRECT_URL ='/'
+LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'account',
     'main',
+    'crispy_forms',
 
 ]
 
@@ -76,10 +76,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Polaris.wsgi.application'
 
-
-
-
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
@@ -89,7 +85,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -109,7 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
@@ -120,7 +114,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
@@ -139,3 +132,9 @@ MEDIA_URL = '/media/'
 # Путь хранения картинок
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'polaris2022ua@gmail.com'
+EMAIL_HOST_PASSWORD = 'iwwrlimfhdxjsarp'
+EMAIL_USE_TLS = True

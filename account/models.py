@@ -35,14 +35,6 @@ class MyAccountManager(BaseUserManager):
         return user
 
 
-def get_profile_image_filepath(self):
-    return f'profile_image/{self.pk}/{"profile_image.png"}'
-
-
-def get_default_profile_image():
-    return "![](../media_cdn/codingwithmitch/logo_1080_1080.png)"
-
-
 def user_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
 
@@ -76,3 +68,5 @@ class Account(AbstractBaseUser):
 
     def has_module_perms(self, app_label):
         return True
+
+
